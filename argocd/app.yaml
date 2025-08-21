@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'git@github.com:your-org/platform-helm-charts.git'
+    repoURL: 'https://github.com/abhinayrimilpurty/namespace.git'
     targetRevision: main
-    path: namespace-networkpolicy
+    path: .
     helm:
       valueFiles:
         - values.yaml
