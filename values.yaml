@@ -1,0 +1,15 @@
+namespace:
+  name: demo-namespace
+  labels:
+    environment: dev
+    team: platform
+
+networkPolicy:
+  enabled: true
+  name: default-deny
+  podSelector: {}
+  policyTypes:
+    - Ingress
+    - Egress
+  ingress: []
+  egress: []
